@@ -15,14 +15,15 @@ import {CTX} from './Store';
 const useStyles = makeStyles((theme) => ({
     root: {
         margin: '50px',
-         
+         border: '2px solid black',
      padding: theme.spacing(3, 2),
      textAlign: 'center'
       
     },
     flex: {
         display: 'flex',
-        alignItem: 'center'
+        alignItem: 'center',
+    
     },
 
     topicsWindow: {
